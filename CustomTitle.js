@@ -14,9 +14,8 @@ const CustomTitle = ({text, style}) => {
 
 const styles = StyleSheet.create({
   text: {
-      fontSize: 25,
+      fontSize: 20,
     fontWeight: '600',
-    textDecorationLine: 'underline',
     textDecorationStyle: 'solid',
     textDecorationColor: '#000',
   },

@@ -7,12 +7,16 @@ import {addTotal} from '../utils/helperFunctions';
 const Total = ({data}) => {
   return (
     <View>
-      <CustomTitle text="TOTAL:" />
-      <Text>{`$${addTotal(data)}`}</Text>
+      <CustomTitle text="Total" />
+      <Text style={styles.text}>{`$${addTotal(data)}`}</Text>
     </View>
   );
 };
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+    text: {
+        fontSize: 20,
+    }
+});
 
 export default Total;

@@ -7,6 +7,7 @@ import {
   TouchableOpacity,
 } from 'react-native';
 import {COLORS} from '../Global/globalStyles';
+import {Paper} from './styleComponents'
 
 const IncomeInput = ({style}) => {
   const [value, setValue] = useState(0);
